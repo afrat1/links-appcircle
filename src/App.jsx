@@ -1,49 +1,43 @@
 import React from 'react'
 import './App.css'
 
-// Array of links to display on the page
+// Appcircle distribution links
 const links = [
   {
     id: 1,
-    label: 'Home',
-    url: 'https://example.com',
-    description: 'My personal website'
+    label: 'UAT - iOS & Android (GMS)',
+    url: 'https://testdist.albarakatech.com/Login?profileId=00f043e1-e362-4f1d-a9c2-e20be6a5bc64',
+    description: 'Test environment for iOS and Android with Google Mobile Services'
   },
   {
     id: 2,
-    label: 'Blog',
-    url: 'https://example.com/blog',
-    description: 'Latest thoughts and articles'
+    label: 'UAT - Android (HMS)',
+    url: 'https://testdist.albarakatech.com/Login?profileId=bf3cfd35-4edb-4928-a43e-48260d7940d3',
+    description: 'Test environment for Android with Huawei Mobile Services'
   },
   {
     id: 3,
-    label: 'Projects',
-    url: 'https://example.com/projects',
-    description: 'Portfolio and work samples'
+    label: 'PILOT - iOS & Android (GMS)',
+    url: 'https://testdist.albarakatech.com/Login?profileId=431d5d76-ebcd-4225-b047-3f51decbc482',
+    description: 'Pilot environment for iOS and Android with Google Mobile Services'
   },
   {
     id: 4,
-    label: 'Resume',
-    url: 'https://example.com/resume',
-    description: 'Professional experience'
+    label: 'PILOT - Android (HMS)',
+    url: 'https://testdist.albarakatech.com/Login?profileId=50f35f69-d4ee-43c6-a8f0-43677b2dbffb',
+    description: 'Pilot environment for Android with Huawei Mobile Services'
   },
   {
     id: 5,
-    label: 'Contact',
-    url: 'mailto:you@example.com',
-    description: 'Get in touch'
+    label: 'DEVELOPER - iOS & Android (GMS)',
+    url: 'https://testdist.albarakatech.com/Login?profileId=eb17ced1-40bb-49ee-bf9d-41a2cc31d343',
+    description: 'Development environment for iOS and Android with Google Mobile Services'
   },
   {
     id: 6,
-    label: 'LinkedIn',
-    url: 'https://www.linkedin.com',
-    description: 'Professional network'
-  },
-  {
-    id: 7,
-    label: 'GitHub',
-    url: 'https://github.com',
-    description: 'Code repositories'
+    label: 'DEVELOPER - Android (HMS)',
+    url: 'https://testdist.albarakatech.com/Login?profileId=44e332a4-2769-4425-acfa-f3fe749e19a8',
+    description: 'Development environment for Android with Huawei Mobile Services'
   }
 ]
 
@@ -54,13 +48,13 @@ function App() {
         {/* Profile Section */}
         <header className="profile-section">
           {/* Avatar placeholder - could be replaced with an actual image */}
-          <div className="avatar" role="img" aria-label="Profile picture">
-            <span className="avatar-text">AF</span>
+          <div className="avatar" role="img" aria-label="Appcircle logo">
+            <span className="avatar-text">AC</span>
           </div>
           
-          <h1 className="title">Ali Fırat</h1>
+          <h1 className="title">Albaraka Appcircle</h1>
           <p className="subtitle">
-            Developer, creator, and tech enthusiast. Find all my important links below.
+            Mobil uygulama dağıtım ortamları. Test, pilot ve geliştirme sürümlerine buradan erişebilirsiniz.
           </p>
         </header>
 
@@ -91,7 +85,7 @@ function App() {
 
         {/* Footer */}
         <footer className="footer">
-          <p>&copy; 2024 Ali Fırat. All rights reserved.</p>
+          <p>&copy; 2024 Albaraka Teknoloji. Tüm hakları saklıdır.</p>
         </footer>
       </main>
     </div>
