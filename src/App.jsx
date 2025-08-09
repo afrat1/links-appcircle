@@ -47,11 +47,7 @@ function App() {
       <main className="container">
         {/* Profile Section */}
         <header className="profile-section">
-          {/* Avatar placeholder - could be replaced with an actual image */}
-          <div className="avatar" role="img" aria-label="Appcircle logo">
-            <span className="avatar-text">AC</span>
-          </div>
-          
+
           <h1 className="title">Albaraka Appcircle</h1>
           <p className="subtitle">
             Mobil uygulama dağıtım ortamları. Test, pilot ve geliştirme sürümlerine buradan erişebilirsiniz.
